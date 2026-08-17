@@ -18,4 +18,13 @@ public class Libro {
         this.autor = autor;
         this.numeroPaginas = numeroPaginas;
     }
+
+    // 3. Metodo para mostrar los detalles del libro
+    public void mostrarDetalles() {
+        System.out.println(
+                "Titulo: "+ this.titulo + "\n"+
+                "Autor: "+ this.autor + "\n"+
+                "Número de paginas: "+ this.numeroPaginas
+        );
+    }
 }
