@@ -16,4 +16,11 @@ public class CuentaBancaria {
         this.numeroCuenta = numeroCuenta;
         this.tipoCuenta = numeroCuenta;
     }
+
+    // 3. constructor sobrecargado con 3 parametros
+    public CuentaBancaria(String numeroCuenta, float saldo, String tipoCuenta){
+        this.numeroCuenta = numeroCuenta;
+        this.saldo = saldo;
+        this.tipoCuenta = numeroCuenta;
+    }
 }
