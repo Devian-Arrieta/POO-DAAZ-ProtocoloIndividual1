@@ -51,5 +51,19 @@ void main() {
     System.out.print("Tipo de cuenta: ");
         cuenta.tipoCuenta = teclado.nextLine();
 
+    System.out.println("\n"); // salto de linea ----------------------------------------------------------
+
+    // 3 pidiendo la información del estudiante
+    System.out.println("3) Ingresa la información del estudiante");
+
+    System.out.print("Nombre del estudiante: ");
+        estudiante.nombre = teclado.nextLine();
+
+    System.out.print("Edad del estudiante: ");
+        estudiante.edad = teclado.nextInt();
+        teclado.nextLine(); // salto de linea para limpiar el buffer
+
+    System.out.print("Curso del estudiante: ");
+        estudiante.curso = teclado.nextLine();
 
 }

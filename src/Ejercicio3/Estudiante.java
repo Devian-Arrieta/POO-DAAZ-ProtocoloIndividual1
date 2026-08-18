@@ -2,8 +2,8 @@ package Ejercicio3;
 
 public class Estudiante {
 
-    String nombre, curso;
-    int edad;
+    public String nombre, curso;
+    public int edad;
 
     // 1. constructor por defecto
     public Estudiante(){
