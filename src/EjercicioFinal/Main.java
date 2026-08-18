@@ -66,4 +66,20 @@ void main() {
     System.out.print("Curso del estudiante: ");
         estudiante.curso = teclado.nextLine();
 
+    System.out.println("\n");
+
+    // Información a mostrar una vez ingresado la información por la consola
+
+    System.out.print("#################### RESULTADOS ################################################## \n \n");
+
+    System.out.println(
+            "LIBRO \n" +
+                    libro.toString() + "\n \n" +
+
+                    "CUENTA BANCARIA \n" +
+                    cuenta.toString()  + "\n \n" +
+
+                    "ESTUDIANTE \n" +
+                    estudiante.toString()
+    );
 }

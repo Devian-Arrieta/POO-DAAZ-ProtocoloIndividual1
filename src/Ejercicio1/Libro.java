@@ -24,7 +24,14 @@ public class Libro {
         System.out.println(
                 "Titulo: "+ this.titulo + "\n"+
                 "Autor: "+ this.autor + "\n"+
-                "Número de paginas: "+ this.numeroPaginas
+                "Número de páginas: "+ this.numeroPaginas
         );
+    }
+
+    @Override
+    public String toString(){
+        return "Titulo: "+ this.titulo + "\n" +
+                "Autor: "+ this.autor + "\n" +
+                "Número de páginas: "+ this.numeroPaginas;
     }
 }
