@@ -2,8 +2,8 @@ package Ejercicio1;
 
 public class Libro {
 
-    String titulo, autor;
-    int numeroPaginas;
+    public String titulo, autor;
+    public int numeroPaginas;
 
     // 1. constructor por defecto
     public Libro(){
