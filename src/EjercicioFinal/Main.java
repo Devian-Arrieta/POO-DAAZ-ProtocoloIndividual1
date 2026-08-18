@@ -20,7 +20,7 @@ void main() {
             "1. LIBRO \n" +
             "2. CUENTA BANCARIA \n" +
             "3. ESTUDIANTE \n" +
-            "AL FINALIZAR SE MOSTRARÁ TODA LA INFORMACIÓN SUMINISTRADA \n"
+            "AL FINALIZAR SE MOSTRARÁ TODA LA INFORMACIÓN SUMINISTRADA \n \n"
     );
 
     // 1 pidiendo la información del libro
@@ -34,6 +34,22 @@ void main() {
 
     System.out.print("Número de paginas del libro: ");
         libro.numeroPaginas = teclado.nextInt();
+        teclado.nextLine(); // salto de linea para limpiar el buffer
 
-    libro.mostrarDetalles();
+    System.out.println("\n"); // salto de linea ----------------------------------------------------------
+
+    // 2 pidiendo la información de la cuenta bancaria
+    System.out.println("2) Ingresa la información de la cuenta bancaria");
+
+    System.out.print("Número de la cuenta: ");
+        cuenta.numeroCuenta = teclado.nextLine();
+
+    System.out.print("Saldo de la cuenta: ");
+        cuenta.saldo = teclado.nextFloat();
+        teclado.nextLine(); // salto de linea para limpiar el buffer
+
+    System.out.print("Tipo de cuenta: ");
+        cuenta.tipoCuenta = teclado.nextLine();
+
+
 }

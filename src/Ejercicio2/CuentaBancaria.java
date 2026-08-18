@@ -1,8 +1,8 @@
 package Ejercicio2;
 
 public class CuentaBancaria {
-    String numeroCuenta, tipoCuenta;
-    float saldo;
+    public String numeroCuenta, tipoCuenta;
+    public float saldo;
 
     // 1. constructor por defecto
     public CuentaBancaria() {
